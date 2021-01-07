@@ -1,0 +1,16 @@
+* { margin: 0px; }
+header { background-color: rgb(92, 186, 255); }
+nav { width: 50%; margin: auto; padding: 30px 0px; }
+nav ul { list-style: none; padding: 0px; overflow: hidden; }
+nav ul li { float: left; margin-left: 25px; color: white; font-size: 20px; text-transform: capitalize; }
+nav ul li img { }
+.content { height: 500px; }
+.left { width: 40%; float: left; background: rgb(92, 186, 255); height: 100%; }
+.left img { width: 100%; }
+.right {width: 60%;float: right;background: rgb(0, 147, 255);height: 100%;position: relative;}
+.total-form {width: 50%;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);}
+.total-form h1 { color: white; text-transform: capitalize; }
+.total-form p { color: white; }
+.total-form h5 { color: white; font-size: 18px; text-transform: uppercase; margin: 30px 0px; }
+input { width: 100%; padding: 10px; border: none; margin-bottom: 10px; }
+input[type="submit"] { width: 30%; color: white; background: rgb(92, 186, 255); font-size: 18px; }
